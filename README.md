@@ -7,19 +7,6 @@ specialty foods from around the world. You are a member of the Data
 Analysis team, and your task is to help the management to understand
 what is going on in the company.
 
-The Entity-Relationship Diagram for the database is the following.
-![application process assignment.png](media/sql/northwind-ER.png)
-
-## What are you going to learn?
-
-- Answer complex business questions using advanced SQL commands.
-- Join database tables (`JOIN`).
-- Use aliases (`AS`).
-- Group results to use aggregated functions (`GROUP BY`, `COUNT`).
-- Order rows (`ORDER BY`).
-- Filter aggregated results (`HAVING`).
-- Use some PostgreSQL specific aggregate functions (`ARRAY_AGG`, `STRING_AGG`).
-
 ## Tasks
 
 1. Your first task is to create a query that shows which product is made by whom. Lists products and their suppliers. Display the `product_name` and the `company_name` of the supplier. Name result columns as `product` and `company` respectively. Order the results alphabetically by `product_name` and by `company_name`. Save the SQL query as `task-1.sql`.
